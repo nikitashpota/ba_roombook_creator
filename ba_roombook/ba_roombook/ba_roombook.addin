@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command ba_roombook</Text>
+    <Description>Some description for ba_roombook</Description>
+    <Assembly>ba_roombook.dll</Assembly>
+    <FullClassName>ba_roombook.Command</FullClassName>
+    <ClientId>7cf4aa95-ad43-4257-b17c-39ec6c0ebe56</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application ba_roombook</Name>
+    <Assembly>ba_roombook.dll</Assembly>
+    <FullClassName>ba_roombook.App</FullClassName>
+    <ClientId>270f8102-c291-4157-9a36-dfd0d45ee018</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
