@@ -1,4 +1,4 @@
-#region Namespaces
+/*#region Namespaces
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -54,4 +54,4 @@ namespace ba_roombook
             return Result.Succeeded;
         }
     }
-}
+}*/
