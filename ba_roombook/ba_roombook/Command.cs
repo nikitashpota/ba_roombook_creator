@@ -1,4 +1,4 @@
-/*#region Namespaces
+#region Namespaces
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -27,6 +27,8 @@ namespace ba_roombook
             // Access current selection
 
             Selection sel = uidoc.Selection;
+            ISelectionFilter selFilter = new SelcetionCategorie();
+            IList<Reference> element_1 = uidoc.Selection.PickObjects(ObjectType.Element, selFilter, "Select rooms");
 
             // Retrieve elements from database
 
@@ -54,4 +56,4 @@ namespace ba_roombook
             return Result.Succeeded;
         }
     }
-}*/
+}
