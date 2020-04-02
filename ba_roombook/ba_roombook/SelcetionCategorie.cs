@@ -15,7 +15,7 @@ namespace ba_roombook
     {
         public bool AllowElement(Element element)
         {
-            if (element.Category.Id.IntegerValue == BuiltInCategory.OST_Rooms.GetHashCode())
+            if (element.Category.Id.IntegerValue.Equals((int)BuiltInCategory.OST_Rooms))
             {
                 return true;
             }

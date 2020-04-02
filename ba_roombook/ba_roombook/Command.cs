@@ -28,7 +28,7 @@ namespace ba_roombook
 
             Selection sel = uidoc.Selection;
             ISelectionFilter selFilter = new SelcetionCategorie();
-            IList<Reference> element_1 = uidoc.Selection.PickObjects(ObjectType.Element, selFilter, "Select rooms");
+            IList<Reference> rooms = uidoc.Selection.PickObjects(ObjectType.Element, selFilter, "Select rooms");
 
             // Retrieve elements from database
 
