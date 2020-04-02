@@ -16,6 +16,7 @@ namespace ba_roombook
         public Result OnStartup(UIControlledApplication a)
         {
             return Result.Succeeded;
+
         }
 
         public Result OnShutdown(UIControlledApplication a)
