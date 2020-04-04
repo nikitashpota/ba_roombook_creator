@@ -142,7 +142,8 @@ for ind, room in enumerate(rooms):
     room_dict_plinth = defaultdict(float)
     room_dict_columns = defaultdict(float)
     used = set()
-    a = room.GetBoundarySegments(opt)
+    
+    """a = room.GetBoundarySegments(opt)
     flattened_list = [y for x in room.GetBoundarySegments(opt) for y in x]
     for i in flattened_list:
     	if hasattr(doc.GetElement(i.ElementId), 'Category'):
@@ -150,7 +151,7 @@ for ind, room in enumerate(rooms):
     			long = round(i.GetCurve().Length*0.3048, 2)
     			#if room.LookupParameter("APMV_Тип плинтуса").AsString() != None:
     				#room_dict_plinth[room.LookupParameter("APMV_Тип плинтуса").AsString()] += long
-    #param_plinth = "\r\n".join(get_string_m(room_dict_plinth))
+    #param_plinth = "\r\n".join(get_string_m(room_dict_plinth))"""
 
     for sub in SpatialElement(room):
     	elem_room = doc.GetElement(sub.SpatialBoundaryElement.HostElementId)
