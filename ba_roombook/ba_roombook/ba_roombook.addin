@@ -4,7 +4,7 @@
     <Text>Command ba_roombook</Text>
     <Description>Some description for ba_roombook</Description>
     <Assembly>ba_roombook.dll</Assembly>
-    <FullClassName>ba_roombook.Command</FullClassName>
+    <FullClassName>ba_roombook.MainRoomBook</FullClassName>
     <ClientId>7cf4aa95-ad43-4257-b17c-39ec6c0ebe56</ClientId>
     <VendorId>revit shit</VendorId>
     <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>

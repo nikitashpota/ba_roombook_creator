@@ -54,10 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="CreateTextElement.cs" />
     <Compile Include="RoomDict.cs" />
     <Compile Include="SelcetionCategorie.cs" />
-    <Compile Include="Command.cs" />
+    <Compile Include="MainRoomBook.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
